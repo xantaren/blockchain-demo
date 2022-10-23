@@ -1,3 +1,3 @@
-module blockchain_demo
+module blockchaindemo
 
 go 1.19
