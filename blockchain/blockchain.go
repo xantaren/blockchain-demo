@@ -99,3 +99,9 @@ func (chain *BlockChain) AddBlock(data string) {
 		return err
 	})
 }
+
+func (chain *BlockChain) Iterator() *Iterator {
+	iter := &Iterator{chain.LastHash, chain.Database}
+
+	return iter
+}
