@@ -6,6 +6,7 @@ import (
 )
 
 const (
+	// DbPath The tmp dir needs to be manually created
 	DbPath      = "./tmp/blocks"
 	LastHashKey = "lastHash"
 )
